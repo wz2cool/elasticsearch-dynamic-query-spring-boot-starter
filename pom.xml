@@ -106,11 +106,6 @@
             <version>2.2.5.RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.github.wz2cool</groupId>
-            <artifactId>elasticsearch-dynamic-query-spring-boot-starter</artifactId>
-            <version>0.1.1</version>
-        </dependency>
     </dependencies>
 
     <build>

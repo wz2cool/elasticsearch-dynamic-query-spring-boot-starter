@@ -1,7 +1,7 @@
 package com.github.wz2cool.elasticsearch.test.query;
 
-import com.github.wz2cool.elasticearch.service.TestService;
 import com.github.wz2cool.elasticsearch.test.TestApplication;
+import com.github.wz2cool.elasticsearch.test.mapper.MyTestMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,11 +16,11 @@ import javax.annotation.Resource;
 public class ExampleTest {
 
     @Resource
-    private TestService testService;
+    private MyTestMapper myTestMapper;
 
     @Test
     public void test() {
-        final String s = testService.sayHello();
+        final String s = myTestMapper.sayHello();
         System.out.println(s);
     }
 }
