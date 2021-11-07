@@ -15,7 +15,6 @@ public class ElasticsearchRepositoryProperties {
     }
 
     public void setRepositoryBasePackages(String repositoryBasePackages) {
-        this.repositoryBasePackages = "*";
-        // this.repositoryBasePackages = repositoryBasePackages;
+        this.repositoryBasePackages = repositoryBasePackages;
     }
 }
