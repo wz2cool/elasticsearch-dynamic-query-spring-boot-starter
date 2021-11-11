@@ -1,4 +1,4 @@
-package com.github.wz2cool.elasticearch.starter.properties;
+package com.github.wz2cool.elasticsearch.starter.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

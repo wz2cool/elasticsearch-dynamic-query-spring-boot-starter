@@ -1,6 +1,6 @@
 package com.github.wz2cool.elasticsearch.test.query;
 
-import com.github.wz2cool.elasticearch.starter.properties.ElasticsearchRepositoryProperties;
+import com.github.wz2cool.elasticsearch.starter.properties.ElasticsearchRepositoryProperties;
 import com.github.wz2cool.elasticsearch.test.TestApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;

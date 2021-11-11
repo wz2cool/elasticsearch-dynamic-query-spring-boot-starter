@@ -1,6 +1,6 @@
-package com.github.wz2cool.elasticearch.starter.autoconfigure;
+package com.github.wz2cool.elasticsearch.starter.autoconfigure;
 
-import com.github.wz2cool.elasticearch.starter.properties.ElasticsearchRepositoryProperties;
+import com.github.wz2cool.elasticsearch.starter.properties.ElasticsearchRepositoryProperties;
 import com.github.wz2cool.elasticsearch.repository.ElasticsearchExtRepository;
 import com.github.wz2cool.elasticsearch.repository.support.ElasticsearchExtRepositoryFactoryBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
