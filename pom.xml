@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.wz2cool</groupId>
     <artifactId>elasticsearch-dynamic-query-spring-boot-starter</artifactId>
-    <version>4.2.3</version>
+    <version>4.2.5</version>
     <name>elasticsearch-dynamic-query-spring-boot-starter</name>
     <description>elasticsearch-dynamic-query-spring-boot-starter</description>
     <url>https://github.com/wz2cool/elasticsearch-dynamic-query-spring-boot-starter</url>
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>com.github.wz2cool</groupId>
             <artifactId>elasticsearch-dynamic-query</artifactId>
-            <version>4.2.3</version>
+            <version>4.2.5</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
