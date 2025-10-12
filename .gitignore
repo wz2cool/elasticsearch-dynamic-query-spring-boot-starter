@@ -1,0 +1,115 @@
+# Maven build output
+target/
+!target/classes/
+!target/test-classes/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven wrapper
+.mvn/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA out directory
+out/
+
+# Maven dependency reduced pom
+dependency-reduced-pom.xml
+
+# Maven build info
+buildNumber.properties
+
+# Maven release files
+release.properties
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Package files (already built artifacts)
+*.jar.asc
+*.pom.asc
+
+# Maven site target
+site/
+
+# Maven checkstyle reports
+checkstyle-result.xml
+
+# Maven PMD reports
+pmd.xml
+
+# Maven findbugs reports
+findbugs.xml
+
+# Maven jacoco reports
+jacoco.exec
+jacoco-it.exec
+
+# Maven surefire reports
+surefire-reports/
+
+# Maven failsafe reports
+failsafe-reports/
+
+# Maven javadoc
+apidocs/
+
+# Maven generated sources
+generated-sources/
+generated-test-sources/
+
+# Maven javadoc bundle options
+javadoc-bundle-options/
+
+# Maven archiver
+maven-archiver/
+
+# Maven status
+maven-status/
+
+# Maven properties
+pom.properties
