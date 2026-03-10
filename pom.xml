@@ -72,7 +72,7 @@
         <dependency>
             <groupId>com.github.wz2cool</groupId>
             <artifactId>elasticsearch-dynamic-query</artifactId>
-            <version>4.2.7</version>
+            <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
