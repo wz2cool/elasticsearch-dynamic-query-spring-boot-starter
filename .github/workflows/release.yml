@@ -26,8 +26,10 @@ jobs:
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         run: |
+          export GNUPGHOME="$(mktemp -d)"
+          echo "GNUPGHOME=$GNUPGHOME" >> $GITHUB_ENV
           echo "$GPG_PRIVATE_KEY" | gpg --batch --import
-          gpg --batch --list-secret-keys --keyid-format LONG || true
+          gpg --batch --list-secret-keys --keyid-format LONG
 
       - name: Configure Maven settings.xml for Central
         env:
@@ -52,6 +54,7 @@ jobs:
       - name: Deploy (release profile)
         env:
           MAVEN_GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          GNUPGHOME: ${{ env.GNUPGHOME }}
         run: |
           mvn -B -ntp -Prelease -DskipTests=true \
             -Dgpg.passphrase="$MAVEN_GPG_PASSPHRASE" \
