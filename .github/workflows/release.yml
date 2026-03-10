@@ -27,7 +27,7 @@ jobs:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         run: |
           echo "$GPG_PRIVATE_KEY" | gpg --batch --import
-          gpg --batch --list-secret-keys --keyid-format LONG
+          gpg --batch --list-secret-keys --keyid-format LONG || true
 
       - name: Configure Maven settings.xml for Central
         env:
